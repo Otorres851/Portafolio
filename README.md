@@ -2,7 +2,7 @@
 
 ## Bienvenidos y Bienvenidas a mí portafolio web 🚀.
 
-![portada2](https://github.com/Otorres851/Portafolio/blob/master/images/portada.png)
+![portada2](https://github.com/Otorres851/Portafolio/blob/master/images/portada2.png)
 
 
 El portafolio Web esta desarrollado con HTML5, CSS3, JAVASCRIPT, Bootstrap4 & Jquery.
