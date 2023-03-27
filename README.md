@@ -20,3 +20,7 @@ El portafolio Web esta desarrollado con HTML5, CSS3, JAVASCRIPT, Bootstrap4 & Jq
 ## Referencias
 
 El portafolio web fue desarrollado utilizando los conocimientos y las tecnologías aprendidas durante los 6 meses de estudio en el programa ONE de [Oracle](https://www.oracle.com/co/education/oracle-next-education/) y [Alura Latam](http://www.aluracursos.com). 
+
+Insignia por haber conluido con exito el portafolio web, durante la formación en el programa ONE (Oracle Next Education).
+
+![insignia-portafolio](https://user-images.githubusercontent.com/67718246/227995497-c023e8c7-48d4-4ee8-96a6-1c466c134bf7.png)
