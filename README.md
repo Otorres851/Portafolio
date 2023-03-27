@@ -2,7 +2,8 @@
 
 ## Bienvenidos y Bienvenidas a mí portafolio web 🚀.
 
-![portada2](https://user-images.githubusercontent.com/Portafolio-Web/images/portada2.png)
+![portada2](./images/portada2.png)
+
 
 El portafolio Web esta desarrollado con HTML5, CSS3, JAVASCRIPT, Bootstrap4 & Jquery.
 
