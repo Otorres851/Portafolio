@@ -6,6 +6,7 @@
   <img src="./images/portada2.png" alt="portada2">
 </div>
 
+<br>
 El portafolio Web esta desarrollado con HTML5, CSS3, JAVASCRIPT, Bootstrap4 & Jquery.
 
 ### `Descripción`
