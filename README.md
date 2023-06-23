@@ -17,7 +17,7 @@ El portafolio Web esta desarrollado con HTML5, CSS3, JAVASCRIPT, Bootstrap4 & Jq
 
  ## Redes Sociales
 
- Si te gustaron mis proyectos y los trabajo  que e realizado, te pido por favor le des una estrellita a mi portafolio, si tienes dudas o sugerencias y quieres charlar conmigo hacerca de mis proyectos y las tecnologías que manejo, me puedes agregar a tus contactos o seguirme en mis redes sociales [LInkedin](https://www.linkedin.com/in/otorres-38a6241a2/) [Github](https://github.com/Otorres851), un cordial saludo.
+Si te gustaron mis proyectos y los trabajos que e realizado, dale una estrella a mi portafolio, si tienes dudas o sugerencias y quieres charlar conmigo hacerca de mis proyectos y las tecnologías que manejo, me puedes agregar a tus contactos o seguirme en mis redes sociales [LInkedin](https://www.linkedin.com/in/otorres-38a6241a2/) [Github](https://github.com/Otorres851), un cordial saludo.
 
 ## Referencias
 
