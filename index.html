@@ -477,12 +477,38 @@
 
                             <div class="grid-item col-md-4 user-interface">
                                 <figure>
+                                    <img src="images/Page8.png">
+                                    <figcaption class="fig-caption">
+                                        <a href="https://otorres851.github.io/Page-Marletti/" target="_blank"><i
+                                                class="fa fa-search"></i>
+                                            <h5 class="title">Maquetación Web</h5>
+                                            <span class="sub-title">Responsive Dashboard</span>
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 user-interface">
+                                <figure>
                                     <img src="images/page7.png">
                                     <figcaption class="fig-caption">
                                         <a href="https://otorres851.github.io/Ecommerce--food/" target="_blank"><i
                                                 class="fa fa-search"></i>
                                             <h5 class="title">Maquetación Web</h5>
                                             <span class="sub-title">Responsive Ecommerce</span>
+                                        </a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 user-interface">
+                                <figure>
+                                    <img src="images/Page9.png">
+                                    <figcaption class="fig-caption">
+                                        <a href="https://otorres851.github.io/Apeperia-Web/" target="_blank"><i
+                                                class="fa fa-search"></i>
+                                            <h5 class="title">Maquetación Web</h5>
+                                            <span class="sub-title">Responsive Landing Page</span>
                                         </a>
                                     </figcaption>
                                 </figure>
@@ -501,7 +527,6 @@
                                 </figure>
                             </div>
 
-
                             <div class="grid-item col-md-4 branding">
                                 <figure>
                                     <img src="images/Cartilla.png">
@@ -517,25 +542,12 @@
 
                             <div class="grid-item col-md-4 user-interface">
                                 <figure>
-                                    <img src="images/page4.png">
+                                    <img src="images/Page10.png">
                                     <figcaption class="fig-caption">
-                                        <a href="https://fake-ecommerce-website.surge.sh/" target="_blank"><i
+                                        <a href="https://otorres851.github.io/Fruta-Fruto-web/" target="_blank"><i
                                                 class="fa fa-search"></i>
-                                            <h5 class="title">Desarollo App Ecommerce</h5>
-                                            <span class="sub-title">Responsive Ecommerce con REACT</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/encriptador.png">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Challenge-Encriptador/" target="_blank"><i
-                                                class="fa fa-search"></i>
-                                            <h5 class="title">Desarollo App Web</h5>
-                                            <span class="sub-title">Responsive Encriptador de Texto</span>
+                                            <h5 class="title">Maquetación Web</h5>
+                                            <span class="sub-title">Responsive Ecommerce</span>
                                         </a>
                                     </figcaption>
                                 </figure>
@@ -593,19 +605,6 @@
                                 </figure>
                             </div>
 
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/landing-page.png">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Home-web/" target="_blank"><i
-                                                class="fa fa-search"></i>
-                                            <h5 class="title">Maquetación Web</h5>
-                                            <span class="sub-title">Responsive Landing Page</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
                             <div class="grid-item col-md-4 ui">
                                 <figure>
                                     <img src="images/relog.png">
@@ -647,12 +646,12 @@
 
                             <div class="grid-item col-md-4 user-interface">
                                 <figure>
-                                    <img src="images/page5.png">
+                                    <img src="images/page4.png">
                                     <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Web-responsive/#Inicio" target="_blank"><i
+                                        <a href="https://fake-ecommerce-website.surge.sh/" target="_blank"><i
                                                 class="fa fa-search"></i>
-                                            <h5 class="title">Maquetación Web</h5>
-                                            <span class="sub-title">Responsive Ecommerce</span>
+                                            <h5 class="title">Desarollo App Ecommerce</h5>
+                                            <span class="sub-title">Responsive Ecommerce con REACT</span>
                                         </a>
                                     </figcaption>
                                 </figure>
@@ -800,7 +799,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
@@ -808,62 +807,51 @@
     <script src="js/waypoint.js"></script>
     <script src="js/validation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    
+    
 
-
-
-
+    
     <script>
         $(document).ready(function () {
+            // Controlar la apertura y cierre del menú lateral
             $(".sidemenu-toggler").click(function () {
-                $(".sidemenu").addClass("active");
+                $(".sidemenu").toggleClass("active");
             });
-
+        
             $(".close").click(function () {
                 $(".sidemenu").removeClass("active");
             });
-
+        
+            // Hacer que el encabezado se adhiera (sticky) al desplazarse hacia abajo
             $(window).scroll(function () {
                 var sc = $(window).scrollTop();
-                if (sc > 150) {
-                    $(".header").addClass("sticky");
-                } else {
-                    $(".header").removeClass("sticky")
+                $(".header").toggleClass("sticky", sc > 150);
+            });
+        
+            // Inicializar Isotope para la galería de portafolio
+            var $container = $('.portfolioContainer');
+            $container.isotope({
+                filter: '*',
+                animationOptions: {
+                    queue: true
                 }
             });
-
-
-            $(window).on("load", function () {
-                var $container = $('.portfolioContainer');
+        
+            // Manejar el filtrado de categorías de la galería de portafolio
+            $('.portfolio-nav li').click(function () {
+                $('.portfolio-nav .current').removeClass('current')
+                $(this).addClass('current');
+                var selector = $(this).attr('data-filter');
                 $container.isotope({
-                    filter: '*',
+                    filter: selector,
                     animationOptions: {
                         queue: true
                     }
                 });
-
-                $('.portfolio-nav li').click(function () {
-                    $('.portfolio-nav .current').removeClass('current')
-                    $(this).addClass('current');
-                    var selector = $(this).attr('data-filter');
-                    $container.isotope({
-                        filter: selector,
-                        animationOptions: {
-                            queue: true
-                        }
-                    });
-                    return false;
-                });
-
+                return false;
             });
-
-            $('#portfolio-item').mixtItUp();
-
-        });
-    </script>
-
-    <script>
-
-        $(function () {
+        
+            // Desplazamiento suave al hacer clic en enlaces de anclaje
             $("a.smooth-scroll").click(function (event) {
                 event.preventDefault();
                 var section = $(this).attr("href");
@@ -871,13 +859,12 @@
                     scrollTop: $(section).offset().top - 124
                 }, 1250, "easeInOutExpo");
             });
-        })
-
-
-    </script>
-    <script>
-        new WOW().init(); 
-    </script>
+        
+            // Inicializar la librería WOW.js para animaciones
+            new WOW().init();
+        });
+        </script>
+        
 </body>
 
 </html>
