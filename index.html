@@ -1,868 +1,1289 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
+  <head>
     <!-- ===== Metadatos básicos ===== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ===== SEO ===== -->
-    <meta name="description"
-        content="Portafolio de Oscar Torres, Front-End Developer especializado en React, Next.js, TypeScript y desarrollo de interfaces modernas.">
-    <meta name="keywords"
-        content="Oscar Torres, Front-End Developer, React, Next.js, TypeScript, Portfolio, Desarrollo Web, Bogotá">
-    <meta name="author" content="Oscar Torres">
+    <meta
+      name="description"
+      content="Portafolio de Oscar Torres, Front-End Developer especializado en React, Next.js, TypeScript y desarrollo de interfaces modernas."
+    />
+    <meta
+      name="keywords"
+      content="Oscar Torres, Front-End Developer, React, Next.js, TypeScript, Portfolio, Desarrollo Web, Bogotá"
+    />
+    <meta name="author" content="Oscar Torres" />
 
     <!-- ===== Favicon ===== -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!-- ===== Fuentes ===== -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
 
     <!-- ===== Librerías CSS ===== -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
 
     <!-- ===== Estilos propios ===== -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Oscar Torres | Front-End Developer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- ===== Header principal ===== -->
     <main class="name" id="home">
-        <header class="header">
-            <div class="wrap d-flex">
-                <h1 class="logo">
-                    <a href="#home" aria-label="Ir al inicio">
-                        <img src="images/logo.png" alt="Logo Oscar Torres">
-                    </a>
-                </h1>
-
-                <!-- ===== Menú principal ===== -->
-                <nav class="menu" aria-label="Navegación principal">
-                    <ul>
-                        <li><a class="smooth-scroll" href="#home">Inicio</a></li>
-                        <li><a class="smooth-scroll" href="#about">Acerca de mí</a></li>
-                        <li><a class="smooth-scroll" href="#pages">Servicios</a></li>
-                        <li><a class="smooth-scroll" href="#skills">Stack</a></li>
-                        <li><a class="smooth-scroll" href="#featured-projects">Destacados</a></li>
-                        <li><a class="smooth-scroll" href="#gallery">Portafolio</a></li>
-                        <li><a class="smooth-scroll" href="#contact">Contáctame</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <!-- ===== Botón menú lateral ===== -->
-            <a href="javascript:void(0);" class="sidemenu-toggler" aria-label="Abrir menú lateral">
-                <span></span>
-                <span></span>
-                <span></span>
+      <header class="header">
+        <div class="wrap d-flex">
+          <h1 class="logo">
+            <a href="#home" aria-label="Ir al inicio">
+              <img src="images/logo.png" alt="Logo Oscar Torres" />
             </a>
+          </h1>
 
-            <!-- ===== Menú lateral ===== -->
-            <div class="sidemenu">
-                <a href="javascript:void(0);" class="close" aria-label="Cerrar menú lateral"></a>
+          <!-- ===== Menú principal ===== -->
+          <nav class="menu" aria-label="Navegación principal">
+            <ul>
+              <li><a class="smooth-scroll" href="#home">Inicio</a></li>
+              <li><a class="smooth-scroll" href="#about">Acerca de mí</a></li>
+              <li><a class="smooth-scroll" href="#pages">Servicios</a></li>
+              <li><a class="smooth-scroll" href="#skills">Stack</a></li>
+              <li>
+                <a class="smooth-scroll" href="#featured-projects"
+                  >Destacados</a
+                >
+              </li>
+              <li><a class="smooth-scroll" href="#gallery">Portafolio</a></li>
+              <li><a class="smooth-scroll" href="#contact">Contáctame</a></li>
+            </ul>
+          </nav>
+        </div>
 
-                <nav aria-label="Menú lateral">
-                    <ul>
-                        <li><a class="smooth-scroll" href="#home">Inicio</a></li>
-                        <li><a class="smooth-scroll" href="#about">Acerca de mí</a></li>
-                        <li><a class="smooth-scroll" href="#pages">Servicios</a></li>
-                        <li><a class="smooth-scroll" href="#skills">Stack</a></li>
-                        <li><a class="smooth-scroll" href="#featured-projects">Destacados</a></li>
-                        <li><a class="smooth-scroll" href="#gallery">Portafolio</a></li>
-                        <li><a class="smooth-scroll" href="#contact">Contáctame</a></li>
-                    </ul>
-                </nav>
+        <!-- ===== Botón menú lateral ===== -->
+        <a
+          href="javascript:void(0);"
+          class="sidemenu-toggler"
+          aria-label="Abrir menú lateral"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
 
-                <footer>
-                    <div class="social">
-                        <a href="https://twitter.com/torresoscar841" target="_blank" rel="noopener noreferrer">
-                            <img src="images/twitter.png" alt="Twitter">
-                        </a>
-                        <a href="https://www.linkedin.com/in/otorres-38a6241a2/" target="_blank"
-                            rel="noopener noreferrer">
-                            <img src="images/linkedin.png" alt="LinkedIn">
-                        </a>
-                        <a href="https://github.com/Otorres851" target="_blank" rel="noopener noreferrer">
-                            <img src="images/github.png" alt="GitHub">
-                        </a>
-                        <a href="https://www.behance.net/oscarbotello" target="_blank" rel="noopener noreferrer">
-                            <img src="images/behance.png" alt="Behance">
-                        </a>
-                    </div>
-                    <p>2026 Oscar Torres, Front-End Developer.</p>
-                </footer>
+        <!-- ===== Menú lateral ===== -->
+        <div class="sidemenu">
+          <a
+            href="javascript:void(0);"
+            class="close"
+            aria-label="Cerrar menú lateral"
+          ></a>
+
+          <nav aria-label="Menú lateral">
+            <ul>
+              <li><a class="smooth-scroll" href="#home">Inicio</a></li>
+              <li><a class="smooth-scroll" href="#about">Acerca de mí</a></li>
+              <li><a class="smooth-scroll" href="#pages">Servicios</a></li>
+              <li><a class="smooth-scroll" href="#skills">Stack</a></li>
+              <li>
+                <a class="smooth-scroll" href="#featured-projects"
+                  >Destacados</a
+                >
+              </li>
+              <li><a class="smooth-scroll" href="#gallery">Portafolio</a></li>
+              <li><a class="smooth-scroll" href="#contact">Contáctame</a></li>
+            </ul>
+          </nav>
+
+          <footer>
+            <div class="social">
+              <a
+                href="https://twitter.com/torresoscar841"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/twitter.png" alt="Twitter" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/otorres-38a6241a2/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/linkedin.png" alt="LinkedIn" />
+              </a>
+              <a
+                href="https://github.com/Otorres851"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/github.png" alt="GitHub" />
+              </a>
+              <a
+                href="https://www.behance.net/oscarbotello"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="images/behance.png" alt="Behance" />
+              </a>
             </div>
-        </header>
+            <p>2026 Oscar Torres, Front-End Developer.</p>
+          </footer>
+        </div>
+      </header>
     </main>
 
     <!-- ===== Hero / presentación principal ===== -->
     <section class="home container text-white" id="home">
-        <div class="row align-items-center">
-            <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
-                <div class="hero-text">
-                    <span class="title">Disponible para nuevos proyectos</span><br>
-                    <span class="nam">Oscar Torres</span><br>
-                    <span class="designation">Front-End Developer | React · Next.js · TypeScript</span><br>
+      <div class="row align-items-center">
+        <div
+          class="col-md-6 wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="0.8s"
+        >
+          <div class="hero-text">
+            <span class="title">Disponible para nuevos proyectos</span><br />
+            <span class="nam">Oscar Torres</span><br />
+            <span class="designation"
+              >Front-End Developer | React · Next.js · TypeScript</span
+            ><br />
 
-                    <p class="hero-description">
-                        Desarrollo interfaces modernas, aplicaciones web escalables y experiencias digitales centradas
-                        en el usuario. Combino diseño, desarrollo y enfoque en producto para construir soluciones
-                        funcionales y visualmente sólidas.
-                    </p>
+            <p class="hero-description">
+              Desarrollo interfaces modernas, aplicaciones web escalables y
+              experiencias digitales centradas en el usuario. Combino diseño,
+              desarrollo y enfoque en producto para construir soluciones
+              funcionales y visualmente sólidas.
+            </p>
 
-                    <span class="email"><i class="fa fa-envelope"></i> oscar4545@hotmail.com</span><br>
-                    <span class="email"><i class="fa fa-map-marker"></i> Bogotá, Colombia</span><br>
+            <span class="email"
+              ><i class="fa fa-envelope"></i> oscar4545@hotmail.com</span
+            ><br />
+            <span class="email"
+              ><i class="fa fa-map-marker"></i> Bogotá, Colombia</span
+            ><br />
 
-                    <div class="hero-cta">
-                        <a href="#contact" class="btn btn-danger smooth-scroll">Trabajemos juntos</a>
-                    </div>
-
-                    <div class="social-icons d-flex">
-                        <li><a href="https://twitter.com/torresoscar841" class="social-link" target="_blank"
-                                rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/otorres-38a6241a2/" class="social-link"
-                                target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/Otorres851" class="social-link" target="_blank"
-                                rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
-                        <li><a href="https://www.behance.net/oscarbotello" class="social-link" target="_blank"
-                                rel="noopener noreferrer"><i class="fa fa-behance"></i></a></li>
-                    </div>
-                </div>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-danger smooth-scroll"
+                >Trabajemos juntos</a
+              >
             </div>
 
-            <div class="col-md-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                <div class="hero-img">
-                    <div class="img-border">
-                        <img src="images/ot.png" class="img-fluid" alt="Foto de Oscar Torres">
-                    </div>
-                </div>
+            <div class="social-icons d-flex">
+              <li>
+                <a
+                  href="https://twitter.com/torresoscar841"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/otorres-38a6241a2/"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Otorres851"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.behance.net/oscarbotello"
+                  class="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-behance"></i
+                ></a>
+              </li>
             </div>
+          </div>
         </div>
+
+        <div
+          class="col-md-6 wow fadeInUp"
+          data-wow-duration="1s"
+          data-wow-delay="1s"
+        >
+          <div class="hero-img">
+            <div class="img-border">
+              <img
+                src="images/ot.png"
+                class="img-fluid"
+                alt="Foto de Oscar Torres"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ===== Sección sobre mí ===== -->
     <section class="about" id="about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 wow bounceInLeft" data-wow-duration="1.1s" data-wow-delay="0.8s">
-                    <img src="images/seo-home1.png" class="about-img" alt="Ilustración desarrollo web">
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-md-6 wow bounceInLeft"
+            data-wow-duration="1.1s"
+            data-wow-delay="0.8s"
+          >
+            <img
+              src="images/seo-home1.png"
+              class="about-img"
+              alt="Ilustración desarrollo web"
+            />
+          </div>
 
-                <div class="col-md-5 text-white gap about-content wow fadeInUp" data-wow-duration="1s"
-                    data-wow-delay="1s">
-                    <h2>Acerca de mí</h2>
-                    <br>
-                    <p>
-                        Soy Front-End Developer con formación en Diseño Tecnológico y experiencia construyendo
-                        interfaces web, aplicaciones responsive e integraciones con APIs REST. Me enfoco en crear
-                        productos digitales claros, mantenibles y alineados con objetivos de negocio.
-                    </p>
-                    <br>
-                    <p>
-                        Tengo experiencia traduciendo diseños a código, optimizando UI, estructurando componentes y
-                        desarrollando soluciones con enfoque en experiencia de usuario, rendimiento y escalabilidad.
-                    </p>
-                    <br>
+          <div
+            class="col-md-5 text-white gap about-content wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            <h2>Acerca de mí</h2>
+            <br />
+            <p>
+              Soy Front-End Developer con formación en Diseño Tecnológico y
+              experiencia construyendo interfaces web, aplicaciones responsive e
+              integraciones con APIs REST. Me enfoco en crear productos
+              digitales claros, mantenibles y alineados con objetivos de
+              negocio.
+            </p>
+            <br />
+            <p>
+              Tengo experiencia traduciendo diseños a código, optimizando UI,
+              estructurando componentes y desarrollando soluciones con enfoque
+              en experiencia de usuario, rendimiento y escalabilidad.
+            </p>
+            <br />
 
-                    <div class="tag">
-                        <ul>
-                            <li><span>HTML5</span></li>
-                            <li><span>CSS3</span></li>
-                            <li><span>JavaScript</span></li>
-                            <li><span>TypeScript</span></li>
-                            <li><span>React.js</span></li>
-                            <li><span>Next.js</span></li>
-                            <li><span>Vue</span></li>
-                            <li><span>Bootstrap</span></li>
-                            <li><span>Ionic</span></li>
-                            <li><span>REST APIs</span></li>
-                            <li><span>Git</span></li>
-                            <li><span>MySQL</span></li>
-                            <li><span>PostgreSQL</span></li>
-                            <li><span>Illustrator</span></li>
-                            <li><span>Photoshop</span></li>
-                        </ul>
-                    </div>
-
-                    <br>
-
-                    <div class="download-button">
-                        <a href="https://drive.google.com/uc?export=download&id=14X-K-rdIEUsHtkazt6pgfNeT-sLfs-jI"
-                            target="_blank" rel="noopener noreferrer" class="btn btn-danger">Descargar CV</a>
-                    </div>
-                </div>
+            <div class="tag">
+              <ul>
+                <li><span>HTML5</span></li>
+                <li><span>CSS3</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>TypeScript</span></li>
+                <li><span>React.js</span></li>
+                <li><span>Next.js</span></li>
+                <li><span>Vue</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>Ionic</span></li>
+                <li><span>REST APIs</span></li>
+                <li><span>Git</span></li>
+                <li><span>MySQL</span></li>
+                <li><span>PostgreSQL</span></li>
+                <li><span>Illustrator</span></li>
+                <li><span>Photoshop</span></li>
+              </ul>
             </div>
+
+            <br />
+
+            <div class="download-button">
+              <a
+                href="https://drive.google.com/uc?export=download&id=14X-K-rdIEUsHtkazt6pgfNeT-sLfs-jI"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-danger"
+                >Descargar CV</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Servicios / propuesta de valor ===== -->
     <section class="mh-service text-white" id="pages">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <h3>Qué puedo aportar</h3>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-12 text-center wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+          >
+            <h3>Qué puedo aportar</h3>
+          </div>
 
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.7s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-bullseye purple-color"></i>
-                        <h3>Interfaces modernas y responsivas</h3>
-                        <p>
-                            Desarrollo layouts adaptables, accesibles y visualmente consistentes a partir de diseños UI,
-                            priorizando experiencia de usuario y claridad visual.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.9s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-code iron-color"></i>
-                        <h3>Aplicaciones web con React</h3>
-                        <p>
-                            Construyo aplicaciones con React, TypeScript y consumo de APIs REST, organizando componentes
-                            y flujos de interfaz orientados a mantenibilidad.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="1.1s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-object-ungroup sky-color"></i>
-                        <h3>UI enfocada en producto</h3>
-                        <p>
-                            Transformo requerimientos de negocio en experiencias digitales funcionales, equilibrando
-                            diseño visual, usabilidad y estructura de desarrollo.
-                        </p>
-                    </div>
-                </div>
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="0.7s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-bullseye purple-color"></i>
+              <h3>Interfaces modernas y responsivas</h3>
+              <p>
+                Desarrollo layouts adaptables, accesibles y visualmente
+                consistentes a partir de diseños UI, priorizando experiencia de
+                usuario y claridad visual.
+              </p>
             </div>
-        </div>
+          </div>
 
-        <div class="container services-secondary-row">
-            <div class="row">
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="1.2s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-steam green-color"></i>
-                        <h3>Diseño de producto</h3>
-                        <p>
-                            Aporto visión de diseño para plantear soluciones funcionales, útiles y centradas en la
-                            necesidad real del usuario.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="1.3s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-line-chart orange-color"></i>
-                        <h3>Comunicación visual</h3>
-                        <p>
-                            Integro fundamentos de branding y diseño gráfico para fortalecer la presentación de productos
-                            digitales y marcas.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="1.4s">
-                    <div class="mh-service-item">
-                        <i class="fa fa-crosshairs violet-color"></i>
-                        <h3>Soluciones orientadas a usuario</h3>
-                        <p>
-                            Diseño y desarrollo interfaces que facilitan la interacción, mejoran la navegación y apoyan
-                            objetivos concretos de producto.
-                        </p>
-                    </div>
-                </div>
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="0.9s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-code iron-color"></i>
+              <h3>Aplicaciones web con React</h3>
+              <p>
+                Construyo aplicaciones con React, TypeScript y consumo de APIs
+                REST, organizando componentes y flujos de interfaz orientados a
+                mantenibilidad.
+              </p>
             </div>
+          </div>
+
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="1.1s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-object-ungroup sky-color"></i>
+              <h3>UI enfocada en producto</h3>
+              <p>
+                Transformo requerimientos de negocio en experiencias digitales
+                funcionales, equilibrando diseño visual, usabilidad y estructura
+                de desarrollo.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="container services-secondary-row">
+        <div class="row">
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="1.2s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-steam green-color"></i>
+              <h3>Diseño de producto</h3>
+              <p>
+                Aporto visión de diseño para plantear soluciones funcionales,
+                útiles y centradas en la necesidad real del usuario.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="1.3s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-line-chart orange-color"></i>
+              <h3>Comunicación visual</h3>
+              <p>
+                Integro fundamentos de branding y diseño gráfico para fortalecer
+                la presentación de productos digitales y marcas.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-4 wow fadeInUp"
+            data-wow-duration="1.2s"
+            data-wow-delay="1.4s"
+          >
+            <div class="mh-service-item">
+              <i class="fa fa-crosshairs violet-color"></i>
+              <h3>Soluciones orientadas a usuario</h3>
+              <p>
+                Diseño y desarrollo interfaces que facilitan la interacción,
+                mejoran la navegación y apoyan objetivos concretos de producto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ===== Stack y fortalezas ===== -->
     <section class="mh-skills" id="skills">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <div class="mh-skills-inner">
-                        <div class="mh-professional-skill">
-                            <h3>Stack principal</h3>
-                            <div class="each-skills">
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">JavaScript</div>
-                                            <div class="percentage-num">90%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 90%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">TypeScript</div>
-                                            <div class="percentage-num">88%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 88%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">React</div>
-                                            <div class="percentage-num">85%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 85%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="candidatos">
-                                    <div class="parcial">
-                                        <div class="info">
-                                            <div class="nome">Vue</div>
-                                            <div class="percentage-num">80%</div>
-                                        </div>
-                                        <div class="progressBar">
-                                            <div class="percentagem" style="width: 80%;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-sm-12 col-md-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.8s"
+          >
+            <div class="mh-skills-inner">
+              <div class="mh-professional-skill">
+                <h3>Stack principal</h3>
+                <div class="each-skills">
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="nome">JavaScript</div>
+                        <div class="percentage-num">90%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 90%"></div>
+                      </div>
                     </div>
-                </div>
+                  </div>
 
-                <div class="col-sm-12 col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <div class="mh-professional-skills">
-                        <h3>Fortalezas profesionales</h3>
-                        <ul class="mh-professional-progress">
-                            <li>
-                                <div class="mh-progress mh-progress-circle" data-progress="95"></div>
-                                <div class="pr-skill-name">Comunicación</div>
-                            </li>
-                            <li>
-                                <div class="mh-progress mh-progress-circle" data-progress="85"></div>
-                                <div class="pr-skill-name">Trabajo en equipo</div>
-                            </li>
-                            <li>
-                                <div class="mh-progress mh-progress-circle" data-progress="80"></div>
-                                <div class="pr-skill-name">Resolución de problemas</div>
-                            </li>
-                            <li>
-                                <div class="mh-progress mh-progress-circle" data-progress="88"></div>
-                                <div class="pr-skill-name">Pensamiento visual</div>
-                            </li>
-                        </ul>
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="nome">TypeScript</div>
+                        <div class="percentage-num">88%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 88%"></div>
+                      </div>
                     </div>
+                  </div>
+
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="nome">React</div>
+                        <div class="percentage-num">85%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 85%"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="candidatos">
+                    <div class="parcial">
+                      <div class="info">
+                        <div class="nome">Vue</div>
+                        <div class="percentage-num">80%</div>
+                      </div>
+                      <div class="progressBar">
+                        <div class="percentagem" style="width: 80%"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+
+          <div
+            class="col-sm-12 col-md-6 wow fadeInRight"
+            data-wow-duration="1s"
+            data-wow-delay="0.8s"
+          >
+            <div class="mh-professional-skills">
+              <h3>Fortalezas profesionales</h3>
+              <ul class="mh-professional-progress">
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="95"
+                  ></div>
+                  <div class="pr-skill-name">Comunicación</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="85"
+                  ></div>
+                  <div class="pr-skill-name">Trabajo en equipo</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="80"
+                  ></div>
+                  <div class="pr-skill-name">Resolución de problemas</div>
+                </li>
+                <li>
+                  <div
+                    class="mh-progress mh-progress-circle"
+                    data-progress="88"
+                  ></div>
+                  <div class="pr-skill-name">Pensamiento visual</div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Proyectos destacados ===== -->
     <section class="mh-portfolio" id="featured-projects">
-        <div class="container">
-            <div class="row">
-                <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <h3>Proyectos destacados</h3>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-title col-sm-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+          >
+            <h3>Proyectos destacados</h3>
+          </div>
 
-                <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-                    <div class="featured-project-card text-white">
-                        <h3>Ecommerce con React</h3>
-                        <p>
-                            Aplicación web responsive enfocada en experiencia de compra, navegación clara y presentación
-                            de productos.
-                        </p>
-                        <span class="stack">React · JavaScript · CSS</span>
-                        <a href="https://fake-ecommerce-website.surge.sh/" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-danger">Ver proyecto</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
-                    <div class="featured-project-card text-white">
-                        <h3>App de búsqueda de películas</h3>
-                        <p>
-                            Aplicación web desarrollada en React con enfoque en interacción dinámica, consumo de datos y
-                            experiencia responsive.
-                        </p>
-                        <span class="stack">React · API · Responsive UI</span>
-                        <a href="http://online-search-movies.surge.sh/" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-danger">Ver proyecto</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
-                    <div class="featured-project-card text-white">
-                        <h3>Landing Page React</h3>
-                        <p>
-                            Interfaz moderna para presentación de producto, construida con componentes reutilizables y
-                            diseño orientado a conversión.
-                        </p>
-                        <span class="stack">React · UI · Responsive</span>
-                        <a href="https://web-app-land.surge.sh/" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-danger">Ver proyecto</a>
-                    </div>
-                </div>
+          <div
+            class="col-md-4 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.7s"
+          >
+            <div class="featured-project-card text-white">
+              <h3>Ecommerce con React</h3>
+              <p>
+                Aplicación web responsive enfocada en experiencia de compra,
+                navegación clara y presentación de productos.
+              </p>
+              <span class="stack">React · JavaScript · CSS</span>
+              <a
+                href="https://fake-ecommerce-website.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-danger"
+                >Ver proyecto</a
+              >
             </div>
+          </div>
+
+          <div
+            class="col-md-4 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.9s"
+          >
+            <div class="featured-project-card text-white">
+              <h3>App de búsqueda de películas</h3>
+              <p>
+                Aplicación web desarrollada en React con enfoque en interacción
+                dinámica, consumo de datos y experiencia responsive.
+              </p>
+              <span class="stack">React · API · Responsive UI</span>
+              <a
+                href="http://online-search-movies.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-danger"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="col-md-4 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1.1s"
+          >
+            <div class="featured-project-card text-white">
+              <h3>Landing Page React</h3>
+              <p>
+                Interfaz moderna para presentación de producto, construida con
+                componentes reutilizables y diseño orientado a conversión.
+              </p>
+              <span class="stack">React · UI · Responsive</span>
+              <a
+                href="https://web-app-land.surge.sh/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-danger"
+                >Ver proyecto</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Educación y experiencia ===== -->
     <section class="mh-experience" id="mh-experience">
-        <div class="container">
-            <div class="row">
-                <div class="col-smd-12 col-md-6 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <div class="mh-education">
-                        <h3>Educación</h3>
-                        <div class="mh-education-details">
-                            <div class="mh-education-item">
-                                <h4>Licenciatura en Diseño Tecnológico <a href="http://www.pedagogica.edu.co/"
-                                        target="_blank" rel="noopener noreferrer">UPN</a></h4>
-                                <div class="mh-eduyear">25 de abril de 2020</div>
-                                <p>
-                                    Formación en diseño, tecnología y educación, con base sólida en desarrollo web,
-                                    pensamiento visual y construcción de soluciones digitales.
-                                </p>
-                            </div>
-
-                            <div class="mh-education-item">
-                                <h4>Tecnólogo en Mecatrónica <a
-                                        href="https://www.sena.edu.co/es-co/Paginas/default.aspx" target="_blank"
-                                        rel="noopener noreferrer">SENA</a></h4>
-                                <div class="mh-eduyear">14 de noviembre de 2007</div>
-                                <p>
-                                    Formación técnica orientada a automatización, lógica, sistemas tecnológicos y
-                                    resolución estructurada de problemas.
-                                </p>
-                            </div>
-
-                            <div class="mh-education-item">
-                                <h4>Bachiller Académico <a href="https://www.colegiorodrigolarabonilla.edu.co/crlb/"
-                                        target="_blank" rel="noopener noreferrer">Colegio RLB</a></h4>
-                                <div class="mh-eduyear">2 de diciembre de 2005</div>
-                                <p>
-                                    Participación en espacios académicos y tecnológicos como Expociencia Juvenil y
-                                    Expotecnología.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-smd-12 col-md-6 wow slideInRight"
+            data-wow-duration="1s"
+            data-wow-delay="0.8s"
+          >
+            <div class="mh-education">
+              <h3>Educación</h3>
+              <div class="mh-education-details">
+                <div class="mh-education-item">
+                  <h4>
+                    Licenciatura en Diseño Tecnológico
+                    <a
+                      href="http://www.pedagogica.edu.co/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >UPN</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">25 de abril de 2020</div>
+                  <p>
+                    Formación en diseño, tecnología y educación, con base sólida
+                    en desarrollo web, pensamiento visual y construcción de
+                    soluciones digitales.
+                  </p>
                 </div>
 
-                <div class="col-sm-12 col-md-6 wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.8s">
-                    <div class="mh-work">
-                        <h3>Experiencia laboral</h3>
-                        <div class="mh-experience-details">
-                            <div class="mh-work-item">
-                                <h4>Desarrollador Frontend (Front-End Engineer) <a href="https://www.lodgerin.com/"
-                                        target="_blank" rel="noopener noreferrer">Lodgerin</a></h4>
-                                <div class="mh-eduyear">Marzo 2025 a abril 2026</div>
-                                <span>Responsabilidades</span>
-                                <ul class="work-responsibility">
-                                    <li><i class="fa fa-circle"></i>Desarrollo de interfaces y aplicaciones web.</li>
-                                    <li><i class="fa fa-circle"></i>Integración con APIs REST.</li>
-                                    <li><i class="fa fa-circle"></i>Maquetación y mejora de experiencias de usuario.</li>
-                                </ul>
-                            </div>
-
-                            <div class="mh-work-item">
-                                <h4>Desarrollador Web (Junior Front-End / Web Designer) <a
-                                        href="https://gladysmarlenparra.mercadoshops.com.co/" target="_blank"
-                                        rel="noopener noreferrer">Punto Químico</a></h4>
-                                <div class="mh-eduyear">Junio a julio de 2021</div>
-                                <span>Responsabilidades</span>
-                                <ul class="work-responsibility">
-                                    <li><i class="fa fa-circle"></i>Desarrollo de landing pages.</li>
-                                    <li><i class="fa fa-circle"></i>Implementación de diseño web responsive.</li>
-                                    <li><i class="fa fa-circle"></i>Apoyo en identidad visual y presencia digital.</li>
-                                </ul>
-                            </div>
-
-                            <div class="mh-work-item">
-                                <h4>Docente de Informática <a
-                                        href="https://normalmontessorisedeb.jimdofree.com/quienes-somos/"
-                                        target="_blank" rel="noopener noreferrer">Escuela María M</a></h4>
-                                <div class="mh-eduyear">Agosto a noviembre de 2018</div>
-                                <span>Responsabilidades</span>
-                                <ul class="work-responsibility">
-                                    <li><i class="fa fa-circle"></i>Enseñanza de programación y herramientas digitales.
-                                    </li>
-                                    <li><i class="fa fa-circle"></i>Introducción a diseño web e interfaces.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                <div class="mh-education-item">
+                  <h4>
+                    Tecnólogo en Mecatrónica
+                    <a
+                      href="https://www.sena.edu.co/es-co/Paginas/default.aspx"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >SENA</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">14 de noviembre de 2007</div>
+                  <p>
+                    Formación técnica orientada a automatización, lógica,
+                    sistemas tecnológicos y resolución estructurada de
+                    problemas.
+                  </p>
                 </div>
+
+                <div class="mh-education-item">
+                  <h4>
+                    Bachiller Académico
+                    <a
+                      href="https://www.colegiorodrigolarabonilla.edu.co/crlb/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Colegio RLB</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">2 de diciembre de 2005</div>
+                  <p>
+                    Participación en espacios académicos y tecnológicos como
+                    Expociencia Juvenil y Expotecnología.
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <div
+            class="col-sm-12 col-md-6 wow slideInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.8s"
+          >
+            <div class="mh-work">
+              <h3>Experiencia laboral</h3>
+              <div class="mh-experience-details">
+                <div class="mh-work-item">
+                  <h4>
+                    Desarrollador Frontend (Front-End Engineer)
+                    <a
+                      href="https://www.lodgerin.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Lodgerin</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">Marzo 2025 a abril 2026</div>
+                  <span>Responsabilidades</span>
+                  <ul class="work-responsibility">
+                    <li>
+                      <i class="fa fa-circle"></i>Desarrollo de interfaces y
+                      aplicaciones web.
+                    </li>
+                    <li>
+                      <i class="fa fa-circle"></i>Integración con APIs REST.
+                    </li>
+                    <li>
+                      <i class="fa fa-circle"></i>Maquetación y mejora de
+                      experiencias de usuario.
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mh-work-item">
+                  <h4>
+                    Desarrollador Web (Junior Front-End / Web Designer)
+                    <a
+                      href="https://gladysmarlenparra.mercadoshops.com.co/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Punto Químico</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">Junio a julio de 2021</div>
+                  <span>Responsabilidades</span>
+                  <ul class="work-responsibility">
+                    <li>
+                      <i class="fa fa-circle"></i>Desarrollo de landing pages.
+                    </li>
+                    <li>
+                      <i class="fa fa-circle"></i>Implementación de diseño web
+                      responsive.
+                    </li>
+                    <li>
+                      <i class="fa fa-circle"></i>Apoyo en identidad visual y
+                      presencia digital.
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="mh-work-item">
+                  <h4>
+                    Docente de Informática
+                    <a
+                      href="https://normalmontessorisedeb.jimdofree.com/quienes-somos/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >Escuela María M</a
+                    >
+                  </h4>
+                  <div class="mh-eduyear">Agosto a noviembre de 2018</div>
+                  <span>Responsabilidades</span>
+                  <ul class="work-responsibility">
+                    <li>
+                      <i class="fa fa-circle"></i>Enseñanza de programación y
+                      herramientas digitales.
+                    </li>
+                    <li>
+                      <i class="fa fa-circle"></i>Introducción a diseño web e
+                      interfaces.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Portafolio filtrable ===== -->
     <section class="mh-portfolio" id="gallery">
-        <div class="container">
-            <div class="row">
-                <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <h3>Portafolio reciente</h3>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="section-title col-sm-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.5s"
+          >
+            <h3>Portafolio reciente</h3>
+          </div>
 
-                <div class="part col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-                    <div class="portfolio-nav col-sm-12" id="filter-button">
-                        <ul>
-                            <li data-filter="*" class="current"><span>Todas las categorías</span></li>
-                            <li data-filter=".user-interface"><span>Web</span></li>
-                            <li data-filter=".branding"><span>Branding</span></li>
-                            <li data-filter=".mockup"><span>Mockups</span></li>
-                            <li data-filter=".ui"><span>Producto</span></li>
-                        </ul>
-                    </div>
-
-                    <div class="mh-project-gallery col-sm-12" id="project-gallery">
-                        <div class="portfolioContainer row">
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/Page8.png" alt="Proyecto landing page Marletti">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Page-Marletti/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Landing Page</h5>
-                                            <span class="sub-title">HTML · CSS · Responsive</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/page7.png" alt="Proyecto ecommerce food">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Ecommerce--food/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Ecommerce Food</h5>
-                                            <span class="sub-title">UI · Responsive · Front-End</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/Page9.png" alt="Proyecto Apeperia">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Apeperia-Web/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Landing Page</h5>
-                                            <span class="sub-title">HTML · CSS · Responsive</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/page.png" alt="Proyecto landing page one">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Landing-Page-one/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Landing Web</h5>
-                                            <span class="sub-title">Responsive · Maquetación</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 branding">
-                                <figure>
-                                    <img src="images/Cartilla.png" alt="Proyecto cartilla branding">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/DKvdLbX/Cartilla.png" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Branding</h5>
-                                            <span class="sub-title">Cartilla de marca</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/Page10.png" alt="Proyecto Fruta Fruto">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://otorres851.github.io/Fruta-Fruto-web/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Ecommerce</h5>
-                                            <span class="sub-title">Responsive · Front-End</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 branding">
-                                <figure>
-                                    <img src="images/10.jpg" alt="Proyecto tarjetas branding">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/GRNGkFK/10.jpg" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Branding</h5>
-                                            <span class="sub-title">Tarjetas</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/page6.png" alt="Proyecto landing react">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://web-app-land.surge.sh/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Landing Page React</h5>
-                                            <span class="sub-title">React · Responsive UI</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 ui">
-                                <figure>
-                                    <img src="images/rueda.png" alt="Rodachín industrial">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/FsdRgqn/rueda.png" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Diseño de producto</h5>
-                                            <span class="sub-title">Rodachín Industrial</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 mockup">
-                                <figure>
-                                    <img src="images/Mi Web.png" alt="Wireframe y mockups web">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://www.behance.net/gallery/105393503/Mi-Web-Wireframe-Mockup-%28Basico%29"
-                                            target="_blank" rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Mockups</h5>
-                                            <span class="sub-title">Wireframe · UX · UI</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 ui">
-                                <figure>
-                                    <img src="images/relog.png" alt="Reloj Casio diseño de producto">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/Krv1tMr/relog.png" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Diseño de producto</h5>
-                                            <span class="sub-title">Reloj Casio</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/page2.png" alt="App búsqueda de películas">
-                                    <figcaption class="fig-caption">
-                                        <a href="http://online-search-movies.surge.sh/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Aplicación Web</h5>
-                                            <span class="sub-title">React · API · Responsive</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 branding">
-                                <figure>
-                                    <img src="images/infografia1.png" alt="Proyecto infografía">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/bL77pwy/infografia1.png" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Branding</h5>
-                                            <span class="sub-title">Infografía</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 user-interface">
-                                <figure>
-                                    <img src="images/page4.png" alt="Proyecto ecommerce react">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://fake-ecommerce-website.surge.sh/" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Ecommerce App</h5>
-                                            <span class="sub-title">React · UI · Responsive</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="grid-item col-md-4 ui">
-                                <figure>
-                                    <img src="images/prensa.png" alt="Prensa industrial">
-                                    <figcaption class="fig-caption">
-                                        <a href="https://i.ibb.co/gJ2rzqc/prensa.png" target="_blank"
-                                            rel="noopener noreferrer">
-                                            <i class="fa fa-search"></i>
-                                            <h5 class="title">Diseño de producto</h5>
-                                            <span class="sub-title">Prensa Industrial</span>
-                                        </a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+          <div
+            class="part col-sm-12 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.7s"
+          >
+            <div class="portfolio-nav col-sm-12" id="filter-button">
+              <ul>
+                <li data-filter="*" class="current">
+                  <span>Todas las categorías</span>
+                </li>
+                <li data-filter=".user-interface"><span>Web</span></li>
+                <li data-filter=".branding"><span>Branding</span></li>
+                <li data-filter=".mockup"><span>Mockups</span></li>
+                <li data-filter=".ui"><span>Producto</span></li>
+              </ul>
             </div>
+
+            <div class="mh-project-gallery col-sm-12" id="project-gallery">
+              <div class="portfolioContainer row">
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img
+                      src="images/Page8.png"
+                      alt="Proyecto landing page Marletti"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://otorres851.github.io/Page-Marletti/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Landing Page</h5>
+                        <span class="sub-title">HTML · CSS · Responsive</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img src="images/page7.png" alt="Proyecto ecommerce food" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://otorres851.github.io/Ecommerce--food/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Ecommerce Food</h5>
+                        <span class="sub-title"
+                          >UI · Responsive · Front-End</span
+                        >
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img src="images/Page9.png" alt="Proyecto Apeperia" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://otorres851.github.io/Apeperia-Web/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Landing Page</h5>
+                        <span class="sub-title">HTML · CSS · Responsive</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img
+                      src="images/page.png"
+                      alt="Proyecto landing page one"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://otorres851.github.io/Landing-Page-one/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Landing Web</h5>
+                        <span class="sub-title">Responsive · Maquetación</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 branding">
+                  <figure>
+                    <img
+                      src="images/Cartilla.png"
+                      alt="Proyecto cartilla branding"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/DKvdLbX/Cartilla.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Branding</h5>
+                        <span class="sub-title">Cartilla de marca</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img src="images/Page10.png" alt="Proyecto Fruta Fruto" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://otorres851.github.io/Fruta-Fruto-web/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Ecommerce</h5>
+                        <span class="sub-title">Responsive · Front-End</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 branding">
+                  <figure>
+                    <img src="images/10.jpg" alt="Proyecto tarjetas branding" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/GRNGkFK/10.jpg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Branding</h5>
+                        <span class="sub-title">Tarjetas</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img src="images/page6.png" alt="Proyecto landing react" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://web-app-land.surge.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Landing Page React</h5>
+                        <span class="sub-title">React · Responsive UI</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 ui">
+                  <figure>
+                    <img src="images/rueda.png" alt="Rodachín industrial" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/FsdRgqn/rueda.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Diseño de producto</h5>
+                        <span class="sub-title">Rodachín Industrial</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 mockup">
+                  <figure>
+                    <img
+                      src="images/Mi Web.png"
+                      alt="Wireframe y mockups web"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://www.behance.net/gallery/105393503/Mi-Web-Wireframe-Mockup-%28Basico%29"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Mockups</h5>
+                        <span class="sub-title">Wireframe · UX · UI</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 ui">
+                  <figure>
+                    <img
+                      src="images/relog.png"
+                      alt="Reloj Casio diseño de producto"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/Krv1tMr/relog.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Diseño de producto</h5>
+                        <span class="sub-title">Reloj Casio</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img
+                      src="images/page2.png"
+                      alt="App búsqueda de películas"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="http://online-search-movies.surge.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Aplicación Web</h5>
+                        <span class="sub-title">React · API · Responsive</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 branding">
+                  <figure>
+                    <img
+                      src="images/infografia1.png"
+                      alt="Proyecto infografía"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/bL77pwy/infografia1.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Branding</h5>
+                        <span class="sub-title">Infografía</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 user-interface">
+                  <figure>
+                    <img
+                      src="images/page4.png"
+                      alt="Proyecto ecommerce react"
+                    />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://fake-ecommerce-website.surge.sh/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Ecommerce App</h5>
+                        <span class="sub-title">React · UI · Responsive</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="grid-item col-md-4 ui">
+                  <figure>
+                    <img src="images/prensa.png" alt="Prensa industrial" />
+                    <figcaption class="fig-caption">
+                      <a
+                        href="https://i.ibb.co/gJ2rzqc/prensa.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i class="fa fa-search"></i>
+                        <h5 class="title">Diseño de producto</h5>
+                        <span class="sub-title">Prensa Industrial</span>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Contacto ===== -->
     <section class="contact" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 image wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
-                    <img src="images/contact.png" alt="Imagen de contacto">
-                </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-6 image wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="0.7s"
+          >
+            <img src="images/contact.png" alt="Imagen de contacto" />
+          </div>
 
-                <div class="col-md-6 formul wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                    <form id="form" class="form" action="https://formspree.io/f/mbjqokyp" method="POST">
-                        <h1 class="heading">Contáctame</h1>
+          <div
+            class="col-md-6 formul wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            <form
+              id="form"
+              class="form"
+              action="https://formspree.io/f/mbjqokyp"
+              method="POST"
+            >
+              <h1 class="heading">Contáctame</h1>
 
-                        <div class="inputBox">
-                            <input name="name" required type="text" id="name" autocomplete="off">
-                            <label for="name">Nombre</label>
-                        </div>
+              <div class="inputBox">
+                <input
+                  name="name"
+                  required
+                  type="text"
+                  id="name"
+                  autocomplete="off"
+                />
+                <label for="name">Nombre</label>
+              </div>
 
-                        <div class="inputBox">
-                            <input name="email" required type="email" id="email" autocomplete="off">
-                            <label for="email">Email</label>
-                        </div>
+              <div class="inputBox">
+                <input
+                  name="email"
+                  required
+                  type="email"
+                  id="email"
+                  autocomplete="off"
+                />
+                <label for="email">Email</label>
+              </div>
 
-                        <div class="inputBox">
-                            <input name="subject" required type="text" id="subject" autocomplete="off">
-                            <label for="subject">Asunto</label>
-                        </div>
+              <div class="inputBox">
+                <input
+                  name="subject"
+                  required
+                  type="text"
+                  id="subject"
+                  autocomplete="off"
+                />
+                <label for="subject">Asunto</label>
+              </div>
 
-                        <div class="inputBox">
-                            <textarea name="message" required id="message" cols="30" rows="10"
-                                autocomplete="off"></textarea>
-                            <label for="message">Mensaje</label>
-                        </div>
+              <div class="inputBox">
+                <textarea
+                  name="message"
+                  required
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  autocomplete="off"
+                ></textarea>
+                <label for="message">Mensaje</label>
+              </div>
 
-                        <div class="inputSubmit">
-                            <button type="submit" class="btn btn-outline-success" value="send message">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+              <div class="inputSubmit">
+                <button
+                  type="submit"
+                  class="btn btn-outline-success"
+                  value="send message"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== Footer ===== -->
     <footer class="footer" id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 box-container">
-                    <div class="col-sm-3 box">
-                        <h3>Sobre mí</h3>
-                        <p>
-                            Front-End Developer enfocado en construir interfaces modernas, productos digitales claros y
-                            experiencias web con impacto visual y funcional.
-                        </p>
-                    </div>
-
-                    <div class="col-sm-3 box">
-                        <h3>Enlaces rápidos</h3>
-                        <a class="smooth-scroll" href="#home">Inicio</a>
-                        <a class="smooth-scroll" href="#about">Acerca de mí</a>
-                        <a class="smooth-scroll" href="#pages">Servicios</a>
-                        <a class="smooth-scroll" href="#skills">Stack</a>
-                        <a class="smooth-scroll" href="#featured-projects">Destacados</a>
-                        <a class="smooth-scroll" href="#gallery">Portafolio</a>
-                        <a class="smooth-scroll" href="#contact">Contáctame</a>
-                    </div>
-
-                    <div class="col-sm-3 box">
-                        <h3>Sígueme en</h3>
-                        <i class="fa fa-twitter social-footer-icon social-footer-twitter"></i>
-                        <i class="fa fa-linkedin social-footer-icon social-footer-linkedin"></i>
-                        <i class="fa fa-github social-footer-icon social-footer-github"></i>
-                        <i class="fa fa-behance social-footer-icon social-footer-behance"></i>
-
-                        <a href="https://twitter.com/torresoscar841" target="_blank"
-                            rel="noopener noreferrer">Twitter</a>
-                        <a href="https://www.linkedin.com/in/otorres-38a6241a2/" target="_blank"
-                            rel="noopener noreferrer">LinkedIn</a>
-                        <a href="https://github.com/Otorres851" target="_blank" rel="noopener noreferrer">GitHub</a>
-                        <a href="https://www.behance.net/oscarbotello" target="_blank"
-                            rel="noopener noreferrer">Behance</a>
-                    </div>
-
-                    <div class="col-sm-3 box">
-                        <h3>Datos de contacto</h3>
-
-                        <div class="info">
-                            <i class="fa fa-phone"></i>
-                            <p>+57 310 569 9752</p>
-                        </div>
-
-                        <div class="info">
-                            <i class="fa fa-envelope"></i>
-                            <p>oscar4545@hotmail.com <br> osharley38@gmail.com</p>
-                        </div>
-
-                        <div class="info">
-                            <i class="fa fa-map-marker"></i>
-                            <p>Bogotá, Colombia</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 box-container">
+            <div class="col-sm-3 box">
+              <h3>Sobre mí</h3>
+              <p>
+                Front-End Developer enfocado en construir interfaces modernas,
+                productos digitales claros y experiencias web con impacto visual
+                y funcional.
+              </p>
             </div>
-        </div>
 
-        <div class="credit">
-            <div>
-                <img src="images/Logo2.png" alt="Logo secundario Oscar Torres">
-                &copy; copyright @ 2026 by Oscar Torres web developer
-                <a href="#home" class="smooth-scroll"><i class="fa fa-angle-up"></i></a>
+            <div class="col-sm-3 box">
+              <h3>Enlaces rápidos</h3>
+              <a class="smooth-scroll" href="#home">Inicio</a>
+              <a class="smooth-scroll" href="#about">Acerca de mí</a>
+              <a class="smooth-scroll" href="#pages">Servicios</a>
+              <a class="smooth-scroll" href="#skills">Stack</a>
+              <a class="smooth-scroll" href="#featured-projects">Destacados</a>
+              <a class="smooth-scroll" href="#gallery">Portafolio</a>
+              <a class="smooth-scroll" href="#contact">Contáctame</a>
             </div>
+
+            <div class="col-sm-3 box">
+              <h3>Sígueme en</h3>
+              <i
+                class="fa fa-twitter social-footer-icon social-footer-twitter"
+              ></i>
+              <i
+                class="fa fa-linkedin social-footer-icon social-footer-linkedin"
+              ></i>
+              <i
+                class="fa fa-github social-footer-icon social-footer-github"
+              ></i>
+              <i
+                class="fa fa-behance social-footer-icon social-footer-behance"
+              ></i>
+
+              <a
+                href="https://twitter.com/torresoscar841"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+              <a
+                href="https://www.linkedin.com/in/otorres-38a6241a2/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+              <a
+                href="https://github.com/Otorres851"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <a
+                href="https://www.behance.net/oscarbotello"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Behance</a
+              >
+            </div>
+
+            <div class="col-sm-3 box">
+              <h3>Datos de contacto</h3>
+
+              <div class="info">
+                <i class="fa fa-phone"></i>
+                <p>+57 310 569 9752</p>
+              </div>
+
+              <div class="info">
+                <i class="fa fa-envelope"></i>
+                <p>
+                  oscar4545@hotmail.com <br />
+                  osharley38@gmail.com
+                </p>
+              </div>
+
+              <div class="info">
+                <i class="fa fa-map-marker"></i>
+                <p>Bogotá, Colombia</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <div class="credit">
+        <div>
+          <img src="images/Logo2.png" alt="Logo secundario Oscar Torres" />
+          &copy; copyright @ 2026 by Oscar Torres web developer
+          <a href="#home" class="smooth-scroll"
+            ><i class="fa fa-angle-up"></i
+          ></a>
+        </div>
+      </div>
     </footer>
 
     <!-- ===== Librerías JS ===== -->
@@ -877,70 +1298,72 @@
 
     <!-- ===== Scripts de interacción ===== -->
     <script>
-        $(document).ready(function () {
-
-            // Abrir menú lateral
-            $(".sidemenu-toggler").click(function () {
-                $(".sidemenu").toggleClass("active");
-            });
-
-            // Cerrar menú lateral
-            $(".close").click(function () {
-                $(".sidemenu").removeClass("active");
-            });
-
-            // Agregar sombra al header al hacer scroll
-            $(window).scroll(function () {
-                var sc = $(window).scrollTop();
-                $(".header").toggleClass("sticky", sc > 150);
-            });
-
-            // Inicializar filtro de proyectos con Isotope
-            var $container = $('.portfolioContainer');
-            $container.isotope({
-                filter: '*',
-                animationOptions: {
-                    queue: true
-                }
-            });
-
-            // Filtrar proyectos por categoría
-            $('.portfolio-nav li').click(function () {
-                $('.portfolio-nav .current').removeClass('current');
-                $(this).addClass('current');
-
-                var selector = $(this).attr('data-filter');
-
-                $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        queue: true
-                    }
-                });
-
-                return false;
-            });
-
-            // Scroll suave entre secciones
-            $('a.smooth-scroll').click(function (event) {
-                event.preventDefault();
-
-                var section = $(this).attr('href');
-
-                if ($(section).length) {
-                    $('html, body').animate({
-                        scrollTop: $(section).offset().top - 124
-                    }, 1250, 'easeInOutExpo');
-                }
-
-                // Cerrar menú lateral después de navegar
-                $('.sidemenu').removeClass('active');
-            });
-
-            // Inicializar animaciones WOW
-            new WOW().init();
+      $(document).ready(function () {
+        // Abrir menú lateral
+        $(".sidemenu-toggler").click(function () {
+          $(".sidemenu").toggleClass("active");
         });
-    </script>
-</body>
 
+        // Cerrar menú lateral
+        $(".close").click(function () {
+          $(".sidemenu").removeClass("active");
+        });
+
+        // Agregar sombra al header al hacer scroll
+        $(window).scroll(function () {
+          var sc = $(window).scrollTop();
+          $(".header").toggleClass("sticky", sc > 150);
+        });
+
+        // Inicializar filtro de proyectos con Isotope
+        var $container = $(".portfolioContainer");
+        $container.isotope({
+          filter: "*",
+          animationOptions: {
+            queue: true,
+          },
+        });
+
+        // Filtrar proyectos por categoría
+        $(".portfolio-nav li").click(function () {
+          $(".portfolio-nav .current").removeClass("current");
+          $(this).addClass("current");
+
+          var selector = $(this).attr("data-filter");
+
+          $container.isotope({
+            filter: selector,
+            animationOptions: {
+              queue: true,
+            },
+          });
+
+          return false;
+        });
+
+        // Scroll suave entre secciones
+        $("a.smooth-scroll").click(function (event) {
+          event.preventDefault();
+
+          var section = $(this).attr("href");
+
+          if ($(section).length) {
+            $("html, body").animate(
+              {
+                scrollTop: $(section).offset().top - 124,
+              },
+              1250,
+              "easeInOutExpo",
+            );
+          }
+
+          // Cerrar menú lateral después de navegar
+          $(".sidemenu").removeClass("active");
+        });
+
+        // Inicializar animaciones WOW
+        new WOW().init();
+      });
+    </script>
+  </body>
 </html>
