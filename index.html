@@ -1294,6 +1294,7 @@
     <script src="js/circle-progress.js"></script>
     <script src="js/waypoint.js"></script>
     <script src="js/validation.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
     <!-- ===== Scripts de interacción ===== -->
@@ -1317,11 +1318,14 @@
 
         // Inicializar filtro de proyectos con Isotope
         var $container = $(".portfolioContainer");
-        $container.isotope({
-          filter: "*",
-          animationOptions: {
-            queue: true,
-          },
+
+        $container.imagesLoaded(function () {
+          $container.isotope({
+            filter: "*",
+            animationOptions: {
+              queue: true,
+            },
+          });
         });
 
         // Filtrar proyectos por categoría
